@@ -17,11 +17,13 @@ Standard v2, **Q4 2020 addenda** — the edition IWBI publishes for exam prep.
 
 | View | Purpose |
 |---|---|
+| Plan | Exam blueprint, where the marks are, and the values worth memorising |
 | Study | All features by concept, expandable to Parts |
 | Preconditions | The 24 mandatory features on their own |
 | Thresholds | Every quantity in the standard, with context |
 | Points | Certification vs WELL Core points, plus scoring rules |
-| Drill | Flashcards |
+| Certify | WELL Certification and Portfolio guidebooks — the largest exam domain |
+| Drill | Flashcards, weighted toward the densest concepts |
 
 ## Controls
 
@@ -35,14 +37,18 @@ progress (Reviewing / Mastered) is stored in `localStorage` on the device.
 IWBI states beta features are **not assessed on the WELL AP exam**, so they are
 hidden by default and excluded from the progress count.
 
+## Exam weighting
+
+Built around IWBI's published blueprint: 115 questions, 150 minutes, 170 of 125–200 to
+pass; 100 scored plus 15 unmarked pilot questions. Concepts are tagged **high yield** or
+**low yield** by questions-per-examinable-feature — Sound is 1.33, Community 0.64.
+
 ## Known gaps
 
 - **L04** — its Part heading is corrupt in the source PDF's text layer (two copies
   interleaved). Requirements captured, heading not. Flagged in the app.
 - **No verification matrix** — the Q4 2020 PDF does not carry per-part verification
   methods (only 6 of 225 Parts have any signal). Not fabricated.
-- **No exam logistics** — question count, duration and pass mark are not included
-  because they were never verified against the current Candidate Handbook.
 
 ## Deploying
 
@@ -60,5 +66,7 @@ python3 build_app.py
 
 ## Source
 
-Parsed directly from `WELL_v2_Q4-2020_WELL-AP_Exam_Version.pdf` (374 pp), from
+Exam blueprint and logistics from the WELL AP Candidate Handbook. Certification and
+Portfolio content parsed from the Q3–Q4 2020 and Q4 2020 guidebooks, both listed as
+exam references. Feature content parsed directly from `WELL_v2_Q4-2020_WELL-AP_Exam_Version.pdf` (374 pp), from
 IWBI's exam prep page. Requirement text reduced to SI units.
