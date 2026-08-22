@@ -1,6 +1,6 @@
 /* WELL AP Reviewer — offline service worker.
    BUMP CACHE_NAME on every deploy or returning devices keep the stale build. */
-const CACHE_NAME = 'wellap-v7';
+const CACHE_NAME = 'wellap-v8';
 
 const ASSETS = [
   "./",

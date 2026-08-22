@@ -22,7 +22,7 @@ Standard v2, **Q4 2020 addenda** — the edition IWBI publishes for exam prep.
 | Preconditions | The 24 mandatory features on their own |
 | Thresholds | Every quantity in the standard, with context |
 | Points | Certification vs WELL Core points, plus scoring rules |
-| Certify | WELL Certification and Portfolio guidebooks — the largest exam domain |
+| Certify | Certification and Portfolio guidebooks — key points, tables, full text on demand |
 | Drill | Flashcards, weighted toward the densest concepts |
 
 ## Controls
